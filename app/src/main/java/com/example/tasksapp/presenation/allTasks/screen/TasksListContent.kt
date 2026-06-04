@@ -239,16 +239,6 @@ fun TasksContent(
                                     actions = {
                                         ActionIcon(
                                             onClick = {
-                                                onCollapse()
-                                                onPinTask(it.id)
-                                            },
-                                            backgroundColor = pinButtonColor,
-                                            contentColor = Color.White,
-                                            icon = if (it.isPinned) Icons.Outlined.Undo else Icons.Default.PushPin,
-                                            contentDescription = if (it.isPinned) "Unpin" else "Pin"
-                                        )
-                                        ActionIcon(
-                                            onClick = {
                                                 onDeleteTask(it.id)
                                                 onDelete()
                                                 onCollapse()
@@ -257,6 +247,16 @@ fun TasksContent(
                                             contentColor = Color.White,
                                             icon = Icons.Default.Delete,
                                             contentDescription = "Delete"
+                                        )
+                                        ActionIcon(
+                                            onClick = {
+                                                onCollapse()
+                                                onPinTask(it.id)
+                                            },
+                                            backgroundColor = pinButtonColor,
+                                            contentColor = Color.White,
+                                            icon = if (it.isPinned) Icons.Outlined.Undo else Icons.Default.PushPin,
+                                            contentDescription = if (it.isPinned) "Unpin" else "Pin"
                                         )
 
                                     },
@@ -385,6 +385,16 @@ fun TasksContent(
                                     actions = {
                                         ActionIcon(
                                             onClick = {
+                                                onPinTask(it.id)
+                                                onCollapse()
+                                            },
+                                            backgroundColor = pinButtonColor,
+                                            contentColor = Color.White,
+                                            icon = if (it.isPinned) Icons.Outlined.Undo else Icons.Default.PushPin,
+                                            contentDescription = if (it.isPinned) "Unpin" else "Pin"
+                                        )
+                                        ActionIcon(
+                                            onClick = {
                                                 onDeleteTask(it.id)
                                                 onDelete()
                                                 onCollapse()
@@ -393,16 +403,6 @@ fun TasksContent(
                                             contentColor = Color.White,
                                             icon = Icons.Default.Delete,
                                             contentDescription = "Delete"
-                                        )
-                                        ActionIcon(
-                                            onClick = {
-                                                onPinTask(it.id)
-                                                onCollapse()
-                                            },
-                                            backgroundColor = pinButtonColor,
-                                            contentColor = Color.White,
-                                            icon = if (it.isPinned) Icons.Outlined.Undo else Icons.Default.PushPin,
-                                            contentDescription = if (it.isPinned) "Unpin" else "Pin"
                                         )
                                     },
                                     content = {
