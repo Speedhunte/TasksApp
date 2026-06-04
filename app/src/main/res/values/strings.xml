@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TasksApp</string>
+    <string name="selected_tasks">Selected: %d </string>
+    <string name="selected">Select tasks</string>
+    <string name="completed_tasks">Completed tasks:  %d</string>
+    <string name="completed">Completed:  %s</string>
+
+
+    <string name="permission_not_requested_title">Enable Notifications</string>
+    <string name="permission_not_requested_desc">
+Allow notifications so we can send you reminders exactly when you need them.
+</string>
+    <string name="permission_btn_allow">Allow Notifications</string>
+
+    <string name="permission_rationale_title">Notifications Are Needed</string>
+    <string name="permission_rationale_desc">
+Notifications help us remind you about important tasks and scheduled events on time.
+</string>
+    <string name="permission_btn_try_again">Try Again</string>
+
+    <string name="permission_settings_title">Enable Notifications in Settings</string>
+    <string name="permission_settings_desc">
+Notification permission has been disabled. Please enable it in your device settings to continue receiving reminders.
+</string>
+    <string name="permission_btn_open_settings">Open Settings</string>
+</resources>
