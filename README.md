@@ -62,5 +62,6 @@ ViewModel
 
 <p align="center">
   <img src="screenshots/Screenshot_20260605_001806.png" width="30%" />
+  <img src="screenshots/img.png" width="30%" />
 </p>
 
