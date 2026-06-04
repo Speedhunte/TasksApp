@@ -47,7 +47,6 @@ ViewModel
 
 
 ## 📸 Ui приложения
-## 📸 Screenshots
 
 <p align="center">
   <img src="screenshots/Screenshot_20260605_001600.png" width="30%" />
